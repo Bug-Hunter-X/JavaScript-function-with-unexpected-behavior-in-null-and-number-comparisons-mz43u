@@ -1,0 +1,3 @@
+# JavaScript function with unexpected behavior in null and number comparisons
+
+This repository demonstrates an uncommon bug in JavaScript related to how null and numbers are compared. The `foo` function in `bug.js` demonstrates this error and the corrected function is given in `bugSolution.js`. The bug lies in how the else statement is structured and how the comparison for 0 is handled in the original code. The solution shows how to resolve this issue by explicitly checking for 0 instead of relying on the else condition. 
